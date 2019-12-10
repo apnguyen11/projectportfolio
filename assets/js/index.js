@@ -1,13 +1,13 @@
-let FG = 1;
-FGslide(FG)
+let pickup = 1;
+slidePickup(pickup)
 
-function FGClick(n){
-  FGSlide((FG += n))
+function plusDivPickup(n){
+  slidePickup((pickup += n))
 }
 
-function FGSlide(n){
+function slidePickup(n){
   var i;
-  var x = document.getElementsByClassName('FG')
+  var x = document.getElementsByClassName('pickup')
   console.log(x)
   if (n > x.length) {
     pickup = 1;
