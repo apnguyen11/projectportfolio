@@ -1,3 +1,4 @@
+// friendgen
 let pickup = 1;
 slidePickup(pickup)
 
@@ -8,7 +9,7 @@ function plusDivPickup(n){
 function slidePickup(n){
   var i;
   var x = document.getElementsByClassName('pickup')
-  console.log(x)
+console.log(x)
   if (n > x.length) {
     pickup = 1;
   }
@@ -21,4 +22,10 @@ function slidePickup(n){
   x[pickup - 1].style.display = "block";
 
 }
+
+
+
+
+
+
 
