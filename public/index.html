@@ -16,6 +16,8 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 		<script	src="./assets/js/index.js"></script>
 		<script	src="./assets/js/bankhub.js"></script>
+		<script	src="./assets/js/photoPortfolio.js"></script>
+		<script	src="./assets/js/battleship.js"></script>
 		
 	</head>
 	<body class="is-preload">
@@ -59,7 +61,8 @@
 								<h2 class="major">About Me</h2>
 								<span class="image main"><img src="images/self.jpg" alt="me" /></span>
 								
-								<p>A young software engineer learning full-stack web development who is ready to work and learn new technologies. I am hard working, a fast learner, and passionate about coding. Currently I am enrolled in a coding bootcamp and am nearing completion. I have completed many projects within the program and am continually learning outside to seek improvement. Along side my love for coding, I enjoy photography, traveling, and most importantly learning! Computer programming intrigues me and compels me to expand my knowledge!</p>
+								<p>I am a Software Engineer with full-stack web 	development experience who is
+								ready to work and learn new technologies. I am hard working, a fast learner, and passionate about coding. Currently I am enrolled in a coding bootcamp and am nearing completion. I have completed many projects within the program and am continually learning outside to seek improvement. Along side my love for coding, I enjoy photography, traveling, and most importantly learning! Computer programming intrigues me and compels me to expand my knowledge!</p>
 							</article>
 
 						<!-- Work -->
@@ -200,6 +203,60 @@
 											Check out the repository on 
 											<a href="https://github.com/apnguyen11/doggo-bank"> Github!</a>
 									</p>
+									<h2 class="major">Photography Portfolio</h2>
+									<span class="image main">
+											<div class="w3-content w3-display-container">
+													<img class="portfolioSite" src="./images/first.png" style="width: 100%; display: block;">
+													<img class="portfolioSite"src="./images/second.png" style="width: 100%; display: none;">
+													<img class="portfolioSite" src="./images/third.png" style="width: 100%; display: none;">
+													<button class="w3-button w3-black w3-display-left" onclick="PHClick(-1)">
+															❮
+														</button>
+														<button class="w3-button w3-black w3-display-right" onclick="PHClick(1)">
+															❯
+														</button>
+											</div>
+									</span>
+									<p>
+										Individual solo project with the purpose of learning React. The portfolio focuses on using react components and using props to set information and pictures in bootstrap cards. Images were stored on firebase storage and the information for the bootsrap cards were stored and retrieved from a firebase database. A react lightbox was also created for the bootstrap cards to display a full-sized image
+	
+										</p>
+										<p>
+												Give it a try
+												<a href="https://taxphoto.us/"> here!</a>
+												<br>
+												Check out the repository on 
+												<a href="https://github.com/apnguyen11/Phase3Project"> Github!</a>
+										</p>
+
+										<h2 class="major">React-Redux BattleShip</h2>
+									<span class="image main">
+											<div class="w3-content w3-display-container">
+													<img class="battleShip" src="./images/bone.png" style="width: 100%; display: block;">
+													<img class="battleShip"src="./images/btwo.png" style="width: 100%; display: none;">
+													<img class="battleShip" src="./images/bthree.png" style="width: 100%; display: none;">
+													<img class="battleShip" src="./images/bfour.png" style="width: 100%; display: none;">
+													<img class="battleShip" src="./images/bfive.png" style="width: 100%; display: none;">
+													<button class="w3-button w3-black w3-display-left" onclick="BSClick(-1)">
+															❮
+														</button>
+														<button class="w3-button w3-black w3-display-right" onclick="BSClick(1)">
+															❯
+														</button>
+											</div>
+									</span>
+									<p>
+										Capstone project consisting of a four member team. Primary purpose of this project was to learn to integrate React with Redux. A two player game was created using a firebase database to communicate between both players. Socket.io and node was used to create a chat to communicate between players and viewers. Saga was implemented to facilitate asyncronous actions for player state and attack. 
+	
+										</p>
+										<p>
+												Give it a try
+												<a href="http://www.reactbattleship.com/"> here!</a>
+												<br>
+												Check out the repository on 
+												<a href="https://github.com/suepark09/react-redux-battleship"> Github!</a>
+										</p>
+
 
 							</article>
 
